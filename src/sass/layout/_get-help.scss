@@ -1,0 +1,37 @@
+.get-help {
+  background-color: var(--primary-font-color);
+}
+.get-help-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.get-help__title {
+  margin-top: 20px;
+  margin-right: auto;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: var(--secondary-font-color);
+}
+.get-help__description {
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--secondary-font-color);
+}
+.get_help_item {
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--secondary-font-color);
+}
+.get-help__button {
+  margin-right: auto;
+  margin-bottom: 55px;
+  min-width: 180px;
+  padding: 8px 16px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--secondary-font-color);
+  background: #b12333;
+}
